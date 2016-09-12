@@ -7,7 +7,7 @@
 	<h4>{{selectedPOI.Name}}</h4>
 	<small>{{selectedPOI.Note}}</small>
 	<br>
-	<i>Segnalato da {{selectedPOI.[Segnalato da]}}</i>
+	<i>Segnalato da {{selectedPOI.MarkerBy}}</i>
 	<div>
 	<a ng-href="https://www.google.com/maps?q={{selectedPOI.Latitude}},{{selectedPOI.Longitude}}" class="btn btn-primary btn-sm" role="button">Posizione</a>
 	<a ng-href="https://www.google.com/maps/dir/Current+Location/{{selectedPOI.Latitude}},{{selectedPOI.Longitude}}" class="btn btn-primary btn-sm" role="button">Indicazioni</a>
