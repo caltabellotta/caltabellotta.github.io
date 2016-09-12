@@ -9,9 +9,17 @@
 	<br>
 	<img ng-hide="selectedPOI.Image==''" class="img-responsive" ng-src="{{selectedPOI.Image}}" alt="{{selectedPOI.Name}}">
 	<br>
+	<uib-accordion>
+				<div uib-accordion-group class="panel-default" is-open="status.open">
+				<uib-accordion-heading>
+				Italiano <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+				</uib-accordion-heading>
+			{{selectedPOI.DescriptionITA}}
+			</div>
+		</uib-accordion>
 	<div class="panel-group" id="accordion"><div class="panel panel-default" id="panelIta"><div class="panel-heading">
 	<h4 class="panel-title"><a data-toggle="collapse" data-target="#collapseIta" class="collapsed">Italiano</a></h4></div>
-	<div id="collapseIta" class="panel-collapse"><div class="panel-body">{{selectedPOI.DescriptionITA}}</div></div></div>	
+	<div id="collapseIta" class="panel-collapse"><div class="panel-body">{{selectedPOI.DescriptionITA}}</div></div></div>
 	<br>
 	<i>Segnalato da {{selectedPOI.MarkerBy}}</i>
 	<br>
@@ -22,5 +30,4 @@
 	<div>
 		<button type="button" class="close" data-ng-click="panels.close();">Chiudi</button>
 	</div>
-</div> 
-
+</div>
