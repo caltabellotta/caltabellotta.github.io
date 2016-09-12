@@ -1,0 +1,173 @@
+[
+   {
+      "Dataset":"Punti di interesse",
+      "Visible":true,
+      "Categories":[
+         {
+            "Category":"Chiese",
+            "Icon":"Chiesa.png",
+            "Locations":[
+               {
+                  "ID":1,
+                  "Category":"Chiesa",
+                  "Name":"Chiesa Cappuccini",
+                  "Latitude":37.573536,
+                  "Longitude":13.214375,
+                  "Note":"",
+                  "Segnalato da":"Opendata Caltabellotta"
+               },
+               {
+                  "ID":2,
+                  "Category":"Chiesa",
+                  "Name":"Chiesa San Pellegrino",
+                  "Latitude":37.578253,
+                  "Longitude":13.209498,
+                  "Note":"",
+                  "Segnalato da":"Opendata Caltabellotta"
+               },
+               {
+                  "ID":3,
+                  "Category":"Chiesa",
+                  "Name":"Cattedrale Madrice",
+                  "Latitude":37.578599,
+                  "Longitude":13.2171489,
+                  "Note":"",
+                  "Segnalato da":"Opendata Caltabellotta"
+               },
+               {
+                  "ID":4,
+                  "Category":"Chiesa",
+                  "Name":"Chiesa della Pietà",
+                  "Latitude":37.578394,
+                  "Longitude":13.213812,
+                  "Note":"",
+                  "Segnalato da":"Opendata Caltabellotta"
+               },
+               {
+                  "ID":5,
+                  "Category":"Chiesa",
+                  "Name":"Chiesa Sant'Agostino",
+                  "Latitude":37.5777737,
+                  "Longitude":13.2171582,
+                  "Note":"",
+                  "Segnalato da":"Opendata Caltabellotta"
+               },
+               {
+                  "ID":6,
+                  "Category":"Chiesa",
+                  "Name":"Chiesa dell'Itria",
+                  "Latitude":37.576511,
+                  "Longitude":13.217863,
+                  "Note":"",
+                  "Segnalato da":"Opendata Caltabellotta"
+               },
+               {
+                  "ID":7,
+                  "Category":"Chiesa",
+                  "Name":"Chiesa del Carmine",
+                  "Latitude":37.5772265,
+                  "Longitude":13.2156731,
+                  "Note":"",
+                  "Segnalato da":"Opendata Caltabellotta"
+               },
+               {
+                  "ID":8,
+                  "Category":"Chiesa",
+                  "Name":"Chiesa di Santa Maria di Montevergine",
+                  "Latitude":37.564124,
+                  "Longitude":13.236186,
+                  "Note":"",
+                  "Segnalato da":"Opendata Caltabellotta"
+               },
+               {
+                  "ID":9,
+                  "Category":"Chiesa",
+                  "Name":"Chiesa Colleggio di Maria",
+                  "Latitude":37.558785,
+                  "Longitude":13.23478,
+                  "Note":"",
+                  "Segnalato da":"Opendata Caltabellotta"
+               },
+               {
+                  "ID":10,
+                  "Category":"Chiesa",
+                  "Name":"Chiesa Madrice Sant'Anna",
+                  "Latitude":37.559088,
+                  "Longitude":13.234062,
+                  "Note":"",
+                  "Segnalato da":"Opendata Caltabellotta"
+               }
+            ]
+         },
+         {
+            "Category":"POI",
+            "Icon":"POI.png",
+            "Locations":[
+               {
+                  "ID":11,
+                  "Category":"POI",
+                  "Name":"U Pirtusu",
+                  "Latitude":37.57838,
+                  "Longitude":13.214235,
+                  "Note":"",
+                  "Segnalato da":"Paolo Fisco"
+               },
+               {
+                  "ID":12,
+                  "Category":"POI",
+                  "Name":"Altare Sacrificale",
+                  "Latitude":37.578523,
+                  "Longitude":13.219774,
+                  "Note":"",
+                  "Segnalato da":"Vincenzo Pecorino"
+               },
+               {
+                  "ID":13,
+                  "Category":"POI",
+                  "Name":"Castello Vecchio",
+                  "Latitude":37.579717,
+                  "Longitude":13.218742,
+                  "Note":"",
+                  "Segnalato da":"Vincenzo Pecorino"
+               },
+               {
+                  "ID":14,
+                  "Category":"POI",
+                  "Name":"Ruderi chiesa di S.Benedetto",
+                  "Latitude":37.575713,
+                  "Longitude":13.209584,
+                  "Note":"",
+                  "Segnalato da":"Vincenzo Pecorino"
+               },
+               {
+                  "ID":15,
+                  "Category":"POI",
+                  "Name":"Calvario",
+                  "Latitude":37.574776,
+                  "Longitude":13.209831,
+                  "Note":"",
+                  "Segnalato da":"Vincenzo Pecorino"
+               },
+               {
+                  "ID":16,
+                  "Category":"POI",
+                  "Name":"Scavi Archeologici A",
+                  "Latitude":37.576601,
+                  "Longitude":13.204541,
+                  "Note":"",
+                  "Segnalato da":"Sergio Caterina"
+               },
+               {
+                  "ID":17,
+                  "Category":"POI",
+                  "Name":"Scavi Archeologici B",
+                  "Latitude":37.576632,
+                  "Longitude":13.207085,
+                  "Note":"",
+                  "Segnalato da":"Sergio Caterina"
+               }
+            ]
+         }
+      ]
+   }
+]
