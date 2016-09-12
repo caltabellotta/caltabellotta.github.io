@@ -13,12 +13,24 @@
 		Italiano <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i></uib-accordion-heading>
 		{{selectedPOI.DescriptionITA}}
 	</div></uib-accordion>
+	<uib-accordion  ng-hide="selectedPOI.DescriptionENG==''"><div uib-accordion-group class="panel-default" is-open="status.open"><uib-accordion-heading>
+		English <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i></uib-accordion-heading>
+		{{selectedPOI.DescriptionENG}}
+	</div></uib-accordion>
+	<uib-accordion  ng-hide="selectedPOI.DescriptionESP==''"><div uib-accordion-group class="panel-default" is-open="status.open"><uib-accordion-heading>
+		Español <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i></uib-accordion-heading>
+		{{selectedPOI.DescriptionESP}}
+	</div></uib-accordion>
+	<uib-accordion  ng-hide="selectedPOI.DescriptionDEU==''"><div uib-accordion-group class="panel-default" is-open="status.open"><uib-accordion-heading>
+		Deutsch <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i></uib-accordion-heading>
+		{{selectedPOI.DescriptionDEU}}
+	</div></uib-accordion>
 	<br>
 	<i>Segnalato da {{selectedPOI.MarkerBy}}</i>
 	<br>
 	<div>
 	<a ng-href="https://www.google.com/maps?q={{selectedPOI.Latitude}},{{selectedPOI.Longitude}}" class="btn btn-primary btn-sm" role="button">Posizione</a>
-	<a ng-href="https://www.google.com/maps/place/Current+Location/{{selectedPOI.Latitude}},{{selectedPOI.Longitude}}" class="btn btn-primary btn-sm" role="button">Indicazioni</a>
+	<a ng-href="https://www.google.com/maps/dir//{{selectedPOI.Latitude}},{{selectedPOI.Longitude}}" class="btn btn-primary btn-sm" role="button">Indicazioni</a>
 	</div>
 	<div>
 		<button type="button" class="close" data-ng-click="panels.close();">Chiudi</button>
