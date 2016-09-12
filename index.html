@@ -2,7 +2,7 @@
 
 <html data-ng-app="angularApplication">
 <head>
-<title>Mappa Desio</title>
+<title>Mappa Caltabellotta</title>
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/sandstone/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
@@ -45,7 +45,7 @@
 	</div>
 	<custom-control id="title" position="TOP_LEFT" index="1">
 	<div style="padding: 10px;">
-	<h3><b>Città di Desio</b></h3>
+	<h3><b>Caltabellotta</b></h3>
 	<p>Punti di interesse</p>
 	<div ng-repeat="d in pois"  style="padding: 5px;background-color: white;">
 	<label >
@@ -91,7 +91,7 @@
 		            id: 'panel',
 		            position: 'left',
 		            size:sizePanel,
-		            templateUrl: 'https://mappadesio.infocitta.info/panel.html',
+		            templateUrl: 'https://raw.githubusercontent.com/caltabellotta/mappa/master/panel.html',
 		            controller: 'leftCtrl'
 		        })
 		        ;
@@ -103,7 +103,7 @@
 		NgMap.getMap().then(function(map) {
 			$scope.map = map;
 		});
-$http.get("https://mappadesio.infocitta.info/poi.json")
+$http.get("https://raw.githubusercontent.com/caltabellotta/mappa/master/poi.json")
     .then(function(response) {
         $scope.pois = response.data;
     });	
